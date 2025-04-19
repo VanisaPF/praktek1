@@ -1,6 +1,7 @@
 public class User {
     private String name;
     private String NIM;
+
     public boolean login(String x, String y){
        return false;
     }

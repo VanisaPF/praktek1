@@ -4,7 +4,7 @@ public class LoginSystem {
     public static void main(String[] args) {
             Scanner choose = new Scanner(System.in);
             KelasAdmin admin = new KelasAdmin("nisa", "7724", "Admin341", "password341" );
-            KelasMahasiswa mahasiswa = new KelasMahasiswa("Vanisa Putri", "202410370110341");
+            KelasMahasiswa mahasiswa = new KelasMahasiswa("Vanisa Putri", "202410370110341","nh");
 
             System.out.println("Pilih login: ");
             System.out.println("1.Admin");

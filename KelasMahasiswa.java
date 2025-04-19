@@ -1,6 +1,8 @@
 public class KelasMahasiswa extends User {
-    public KelasMahasiswa(String name, String NIM){
+    private String alamat;
+    public KelasMahasiswa(String name, String NIM, String alamat){
         super(name, NIM);
+        this.alamat = alamat;
     }
 
     @Override
